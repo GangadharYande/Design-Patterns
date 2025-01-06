@@ -7,7 +7,7 @@ public class Student {
 
 
 
-    Student(Builder builder) {
+    public Student(Builder builder) {
         this.id = builder.getId();
         this.name = builder.getName();
         this.age = builder.getAge();
